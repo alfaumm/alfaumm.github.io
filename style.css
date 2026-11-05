@@ -1,190 +1,20 @@
-/* Import Professional Font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
-
-/* General Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth; /* Smooth scrolling pag pinindot ang menu */
-}
-
-body {
-    background-color: #0f172a; /* Dark Navy Blue */
-    color: #e2e8f0; 
-    font-family: 'Poppins', sans-serif; 
-    line-height: 1.7;
-}
-
-/* Navigation Bar */
-nav {
+/* Para sa dalawang screenshots (Image Gallery) */
+.image-gallery {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 50px;
-    background-color: rgba(15, 23, 42, 0.9);
-    position: sticky;
-    top: 0;
-    backdrop-filter: blur(10px);
-    z-index: 100;
-    border-bottom: 1px solid #1e293b;
-}
-
-nav h2 {
-    color: #38bdf8; /* Sky Blue */
-    font-weight: 700;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 30px;
-}
-
-nav a {
-    color: #e2e8f0;
-    text-decoration: none;
-    font-weight: 600;
-    transition: color 0.3s ease;
-}
-
-nav a:hover {
-    color: #38bdf8; 
-}
-
-/* Hero Section */
-.hero {
-    text-align: center;
-    padding: 150px 20px;
-}
-
-.hero h1 {
-    font-size: 3.5rem;
-    font-weight: 700;
-    margin-bottom: 10px;
-    background: linear-gradient(to right, #38bdf8, #818cf8);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.hero p {
-    font-size: 1.2rem;
-    color: #94a3b8;
-    margin-bottom: 30px;
-}
-
-.hero-btn {
-    display: inline-block;
-    padding: 12px 30px;
-    background-color: #38bdf8;
-    color: #0f172a;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: 700;
-    transition: background-color 0.3s ease;
-}
-
-.hero-btn:hover {
-    background-color: #818cf8;
-}
-
-/* Sections General */
-section {
-    text-align: center;
-    padding: 80px 20px;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-section h2 {
-    font-size: 2.5rem;
-    margin-bottom: 30px;
-    color: #f8fafc;
-}
-
-/* Skills Section */
-#skills {
-    background-color: #1e293b;
-    border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
-    padding: 50px;
-    margin-bottom: 40px;
-}
-
-.skills-grid {
-    display: flex;
-    justify-content: center;
     gap: 15px;
+    margin-bottom: 20px;
     flex-wrap: wrap;
 }
 
-.skill-tag {
-    background-color: #334155;
-    color: #38bdf8;
-    padding: 10px 25px;
-    border-radius: 30px;
-    font-weight: 600;
-    border: 1px solid #38bdf8;
-    transition: transform 0.3s ease, background-color 0.3s ease;
-}
-
-.skill-tag:hover {
-    transform: translateY(-5px);
-    background-color: #38bdf8;
-    color: #0f172a;
-}
-
-/* Projects Section */
-.project-card {
-    background-color: #1e293b;
-    padding: 30px;
-    margin-bottom: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
-    text-align: left;
+.project-img {
+    width: 100%;
+    max-width: 350px; /* Para magkasya silang dalawa */
+    border-radius: 8px;
+    border: 1px solid #334155;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
     transition: transform 0.3s ease;
 }
 
-.project-card:hover {
-    transform: translateY(-5px);
-}
-
-.project-card h3 {
-    margin-bottom: 10px;
-    color: #38bdf8;
-    font-size: 1.5rem;
-}
-
-.project-card p {
-    margin-bottom: 20px;
-    color: #94a3b8;
-}
-
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #38bdf8;
-    color: #0f172a;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: 700;
-    transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-    background-color: #818cf8;
-}
-
-/* Contact Section */
-#contact a {
-    color: #38bdf8;
-    text-decoration: none;
-    font-weight: 600;
-}
-
-#contact a:hover {
-    text-decoration: underline;
+.project-img:hover {
+    transform: scale(1.05); /* Liliit/lalaki pag hinover */
 }
