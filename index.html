@@ -6,7 +6,7 @@
     <title>Dale Martinez | Full-Stack Developer</title>
     <link rel="stylesheet" href="style.css">
     
-    <!-- Ito ang nagdadagdag ng animation (AOS) -->
+    <!-- AOS Animation Library -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
@@ -21,20 +21,17 @@
         </ul>
     </nav>
 
-    <!-- Nilagyan natin ng data-aos="fade-down" -->
     <header class="hero" data-aos="fade-down" data-aos-duration="1000">
         <h1>Hi, I'm Dale Geteiv A. Martinez</h1>
         <p>Aspiring Full-Stack Developer & IT Student</p>
         <a href="#projects" class="hero-btn">View My Work</a>
     </header>
 
-    <!-- Nilagyan natin ng data-aos="fade-up" -->
     <section id="about" data-aos="fade-up" data-aos-duration="1000">
         <h2>About Me</h2>
         <p>I am an IT student passionate about building web applications from the ground up. Whether it's crafting clean user interfaces on the frontend, managing databases on the backend, or designing efficient system architectures, I love turning complex problems into simple, functional solutions.</p>
     </section>
 
-    <!-- Nilagyan natin ng data-aos="fade-up" -->
     <section id="skills" data-aos="fade-up" data-aos-duration="1000">
         <h2>My Skills</h2>
         <div class="skills-grid">
@@ -52,7 +49,7 @@
     <section id="projects">
         <h2 data-aos="fade-up">My Projects</h2>
         
-        <!-- Project 1 -->
+        <!-- PROJECT 1: VIVAR LOGISTICS -->
         <div class="project-card" data-aos="fade-right" data-aos-duration="1000">
             <h3>Vivar Logistics ERP System</h3>
             <p>A comprehensive enterprise resource planning system for logistics management. It features employee tracking, shipment creation, attendance, payroll, and a dynamic dashboard for real-time warehouse operations monitoring.</p>
@@ -65,8 +62,21 @@
             <a href="#" class="btn">View Details</a>
         </div>
 
-        <!-- Project 2 -->
+        <!-- PROJECT 2: ATTENDSYS (BAGO) -->
         <div class="project-card" data-aos="fade-left" data-aos-duration="1000">
+            <h3>AttendSys - Smart Attendance Management</h3>
+            <p>A web-based attendance system using unique QR codes for each student. It streamlines tracking with a secure admin login, real-time dashboard analytics (Present, Late, Absent), and comprehensive reporting with advanced filtering.</p>
+            
+            <div class="image-gallery">
+                <img src="attendsys-login.png" alt="AttendSys Login" class="project-img">
+                <img src="attendsys-dashboard.png" alt="AttendSys Dashboard" class="project-img">
+            </div>
+
+            <a href="#" class="btn">View Details</a>
+        </div>
+
+        <!-- PROJECT 3: PORTFOLIO -->
+        <div class="project-card" data-aos="fade-right" data-aos-duration="1000">
             <h3>Personal Portfolio Website</h3>
             <p>A responsive personal portfolio built from scratch using HTML, CSS, and modern design principles.</p>
             <a href="https://mdalegeteiv-maker.github.io/" class="btn" target="_blank">View Project</a>
@@ -80,7 +90,6 @@
         <p>Facebook: <a href="https://www.facebook.com/share/1J1tzmtRJg/" target="_blank">Dale Martinez</a></p>
     </section>
 
-    <!-- Ito ang script na nagpapa-andar ng animation -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
