@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dale Martinez | Full-Stack Developer</title>
     <link rel="stylesheet" href="style.css">
+    
+    <!-- Ito ang nagdadagdag ng animation (AOS) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -18,18 +21,21 @@
         </ul>
     </nav>
 
-    <header class="hero">
+    <!-- Nilagyan natin ng data-aos="fade-down" -->
+    <header class="hero" data-aos="fade-down" data-aos-duration="1000">
         <h1>Hi, I'm Dale Geteiv A. Martinez</h1>
         <p>Aspiring Full-Stack Developer & IT Student</p>
         <a href="#projects" class="hero-btn">View My Work</a>
     </header>
 
-    <section id="about">
+    <!-- Nilagyan natin ng data-aos="fade-up" -->
+    <section id="about" data-aos="fade-up" data-aos-duration="1000">
         <h2>About Me</h2>
         <p>I am an IT student passionate about building web applications from the ground up. Whether it's crafting clean user interfaces on the frontend, managing databases on the backend, or designing efficient system architectures, I love turning complex problems into simple, functional solutions.</p>
     </section>
 
-    <section id="skills">
+    <!-- Nilagyan natin ng data-aos="fade-up" -->
+    <section id="skills" data-aos="fade-up" data-aos-duration="1000">
         <h2>My Skills</h2>
         <div class="skills-grid">
             <span class="skill-tag">HTML</span>
@@ -44,9 +50,10 @@
     </section>
 
     <section id="projects">
-        <h2>My Projects</h2>
+        <h2 data-aos="fade-up">My Projects</h2>
         
-        <div class="project-card">
+        <!-- Project 1 -->
+        <div class="project-card" data-aos="fade-right" data-aos-duration="1000">
             <h3>Vivar Logistics ERP System</h3>
             <p>A comprehensive enterprise resource planning system for logistics management. It features employee tracking, shipment creation, attendance, payroll, and a dynamic dashboard for real-time warehouse operations monitoring.</p>
             
@@ -58,19 +65,26 @@
             <a href="#" class="btn">View Details</a>
         </div>
 
-        <div class="project-card">
+        <!-- Project 2 -->
+        <div class="project-card" data-aos="fade-left" data-aos-duration="1000">
             <h3>Personal Portfolio Website</h3>
             <p>A responsive personal portfolio built from scratch using HTML, CSS, and modern design principles.</p>
             <a href="https://mdalegeteiv-maker.github.io/" class="btn" target="_blank">View Project</a>
         </div>
     </section>
 
-    <section id="contact">
+    <section id="contact" data-aos="fade-up" data-aos-duration="1000">
         <h2>Contact Me</h2>
         <p>Email: <a href="mailto:mdalegeteiv@gmail.com">mdalegeteiv@gmail.com</a></p>
         <p>GitHub: <a href="https://github.com/mdalegteiv-maker" target="_blank">github.com/mdalegteiv-maker</a></p>
         <p>Facebook: <a href="https://www.facebook.com/share/1J1tzmtRJg/" target="_blank">Dale Martinez</a></p>
     </section>
+
+    <!-- Ito ang script na nagpapa-andar ng animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
 </body>
 </html>
