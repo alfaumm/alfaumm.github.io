@@ -15,7 +15,7 @@ body {
     color: #e2e8f0; 
     font-family: 'Poppins', sans-serif; 
     line-height: 1.7;
-    overflow-x: hidden; /* MAHALAGA ITO: Para hindi magkaroon ng scrollbar sa gilid habang may animation */
+    overflow-x: hidden; 
 }
 
 nav {
@@ -200,4 +200,29 @@ section h2 {
 
 #contact a:hover {
     text-decoration: underline;
+}
+
+/* =========================================
+   CUSTOM SCROLLBAR (Ito ang bago!)
+   ========================================= */
+
+/* Para sa buong scrollbar (lapad) */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Para sa background ng scrollbar (yung pinaka-dadaanan) */
+::-webkit-scrollbar-track {
+    background: #0f172a; /* Kaparehas ng body background */
+}
+
+/* Para sa hinihila (yung thumb) */
+::-webkit-scrollbar-thumb {
+    background: #38bdf8; /* Sky blue color */
+    border-radius: 10px;
+}
+
+/* Kapag hinover ng mouse */
+::-webkit-scrollbar-thumb:hover {
+    background: #818cf8; /* Magiging purple/indigo pag hinover */
 }
